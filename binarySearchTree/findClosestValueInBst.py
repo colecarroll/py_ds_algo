@@ -10,7 +10,7 @@
 # Worst: O(n) time | O(n) space
 
 def findClosestValueInBstRec(tree, target):
-    return findClosestValueInBstHelper(tree, target, tree.value)
+    return findClosestValueInBstRecHelper(tree, target, tree.value)
 
 
 def findClosestValueInBstRecHelper(tree, target, closest):
